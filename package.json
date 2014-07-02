@@ -1,0 +1,29 @@
+{
+  "name": "node-resemble",
+  "version": "1.1.1",
+  "description": "Image analysis and comparison with HTML5",
+  "main": "index.js",
+  "keywords": [
+    "comparison",
+    "visual",
+    "image",
+    "diff",
+    "compare",
+    "html5"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://ddo@github.com/ddo/node-resemble.git"
+  },
+  "author": "ddo <joeddo89@gmail.com> (http://ddo.me/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ddo/node-resemble/issues"
+  },
+  "homepage": "https://github.com/ddo/node-resemble",
+  "dependencies": {
+    "canvas": "^1.1.5",
+    "image-type": "^0.1.4",
+    "resemblejs": "^1.1.1"
+  }
+}
