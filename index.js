@@ -1,5 +1,3 @@
-var fs = require('fs');
-
 var resemblejs = require('resemblejs');
 var canvas     = require('canvas');
 var imageType  = require('image-type');
