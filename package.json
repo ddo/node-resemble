@@ -23,7 +23,7 @@
   "homepage": "https://github.com/ddo/node-resemble",
   "dependencies": {
     "canvas": "^1.1.5",
-    "image-type": "^0.1.4",
-    "resemblejs": "^1.1.1"
+    "image-type": "^1.0.0",
+    "resemblejs": "1.1.3"
   }
 }
