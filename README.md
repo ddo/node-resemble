@@ -1,6 +1,25 @@
 node-resemble
 =============
 
+[![version][version-img]][version-url]
+[![download][download-img]][download-url]
+
+[![dependency][dependency-img]][dependency-url]
+
+[![climate][climate-img]][climate-url]
+
+[download-img]: https://img.shields.io/npm/dm/node-resemble.svg?style=flat-square
+[download-url]: https://www.npmjs.com/package/node-resemble
+
+[version-img]: https://img.shields.io/npm/v/node-resemble.svg?style=flat-square
+[version-url]: https://www.npmjs.com/package/node-resemble
+
+[dependency-img]: https://img.shields.io/david/ddo/node-resemble.svg?style=flat-square
+[dependency-url]: https://david-dm.org/ddo/node-resemble
+
+[climate-img]: https://img.shields.io/codeclimate/github/ddo/node-resemble.svg?style=flat-square
+[climate-url]: https://codeclimate.com/github/ddo/node-resemble
+
 Node port of [Resemble.js](https://github.com/Huddle/Resemble.js).
 
 ## installation
