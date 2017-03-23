@@ -1,4 +1,4 @@
-node-resemble
+node-resemble [![Build Status][semaphoreci-img]][semaphoreci-url]
 =============
 
 [![version][version-img]][version-url]
@@ -19,6 +19,9 @@ node-resemble
 
 [climate-img]: https://img.shields.io/codeclimate/github/ddo/node-resemble.svg?style=flat-square
 [climate-url]: https://codeclimate.com/github/ddo/node-resemble
+
+[semaphoreci-img]: https://semaphoreci.com/api/v1/ddo/node-resemble/branches/master/badge.svg
+[semaphoreci-url]: https://codeclimate.com/github/ddo/node-resemble
 
 Node port of [Resemble.js](https://github.com/Huddle/Resemble.js).
 
@@ -45,11 +48,20 @@ var github_img1 = 'data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAA
 
 var github_img2 = fs.readFileSync('./example.png');
 
-resemble(github_img1).onComplete(function(data){
+resemble(github_img1).onComplete(function(data) {
     console.log(data);
 });
 
-resemble(github_img1).compareTo(github_img2).onComplete(function(data){
+resemble(github_img1).compareTo(github_img2).onComplete(function(data) {
     console.log(data);
 });
+```
+
+## test
+
+all PR should be tested before submit
+
+```sh
+npm i
+npm test
 ```
