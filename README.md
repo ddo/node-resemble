@@ -3,19 +3,19 @@ node-resemble
 
 Node port of [Resemble.js](https://github.com/Huddle/Resemble.js).
 
-##Installation
+## installation
 
 ```bash
 $ npm i node-resemble
 ```
 
-##Note
+## note
 
 [node-canvas](https://github.com/Automattic/node-canvas)  is a [Cairo](http://cairographics.org/) backed Canvas implementation for NodeJS.
 
 Unless previously installed you'll need Cairo. For system-specific installation view the node-canvas [Wiki](https://github.com/Automattic/node-canvas/wiki/_pages).
 
-##Example
+## example
 
 ```js
 var fs = require('fs');
