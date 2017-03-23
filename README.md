@@ -21,7 +21,7 @@ node-resemble [![Build Status][semaphoreci-img]][semaphoreci-url]
 [climate-url]: https://codeclimate.com/github/ddo/node-resemble
 
 [semaphoreci-img]: https://semaphoreci.com/api/v1/ddo/node-resemble/branches/master/badge.svg
-[semaphoreci-url]: https://codeclimate.com/github/ddo/node-resemble
+[semaphoreci-url]: https://semaphoreci.com/ddo/node-resemble
 
 Node port of [Resemble.js](https://github.com/Huddle/Resemble.js).
 
