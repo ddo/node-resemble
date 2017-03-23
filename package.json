@@ -1,6 +1,6 @@
 {
   "name": "node-resemble",
-  "version": "1.1.3",
+  "version": "2.0.0",
   "description": "Image analysis and comparison with HTML5",
   "main": "index.js",
   "keywords": [
@@ -22,8 +22,8 @@
   },
   "homepage": "https://github.com/ddo/node-resemble",
   "dependencies": {
-    "canvas": "^1.1.5",
-    "image-type": "^1.0.0",
-    "resemblejs": "1.1.3"
+    "canvas": "^1.5.0",
+    "image-type": "^2.1.0",
+    "resemblejs": "^2.2.2"
   }
 }
